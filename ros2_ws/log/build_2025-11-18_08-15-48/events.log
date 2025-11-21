@@ -1,0 +1,288 @@
+[0.000000] (-) TimerEvent: {}
+[0.005191] (drone_control) JobQueued: {'identifier': 'drone_control', 'dependencies': OrderedDict()}
+[0.006084] (drone_navigation) JobQueued: {'identifier': 'drone_navigation', 'dependencies': OrderedDict()}
+[0.006763] (drone_control) JobStarted: {'identifier': 'drone_control'}
+[0.077804] (drone_navigation) JobStarted: {'identifier': 'drone_navigation'}
+[0.088449] (-) TimerEvent: {}
+[0.191419] (-) TimerEvent: {}
+[0.285863] (drone_control) JobProgress: {'identifier': 'drone_control', 'progress': 'cmake'}
+[0.291568] (-) TimerEvent: {}
+[0.390025] (drone_control) Command: {'cmd': ['/usr/bin/cmake', '/workspaces/Autonomous-Drone-Assistance/ros2_ws/drone_control', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/workspaces/Autonomous-Drone-Assistance/ros2_ws/install/drone_control'], 'cwd': '/workspaces/Autonomous-Drone-Assistance/ros2_ws/build/drone_control', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/workspaces/Autonomous-Drone-Assistance'), ('TERM_PROGRAM_VERSION', '1.106.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-9b04492d-f669-4e38-b704-a9ff5236a6b3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-9b9f972b-a6a3-43d4-bbf0-4c51d718038d.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-f0c86765-0358-445e-bba2-19d651a00432.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/vscode/vscode-server/bin/linux-x64/ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/0'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X0","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/0/vscode-git-04ae24e2e4.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/Autonomous-Drone-Assistance/ros2_ws/build/drone_control'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.434488] (-) TimerEvent: {}
+[0.535816] (-) TimerEvent: {}
+[0.637062] (-) TimerEvent: {}
+[0.738055] (-) TimerEvent: {}
+[0.838869] (-) TimerEvent: {}
+[0.939557] (-) TimerEvent: {}
+[1.040222] (-) TimerEvent: {}
+[1.141023] (-) TimerEvent: {}
+[1.243119] (-) TimerEvent: {}
+[1.253201] (drone_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.343332] (-) TimerEvent: {}
+[1.444462] (-) TimerEvent: {}
+[1.545260] (-) TimerEvent: {}
+[1.646352] (-) TimerEvent: {}
+[1.747447] (-) TimerEvent: {}
+[1.822957] (drone_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.847550] (-) TimerEvent: {}
+[1.935288] (drone_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.947856] (-) TimerEvent: {}
+[2.050889] (-) TimerEvent: {}
+[2.151620] (-) TimerEvent: {}
+[2.252555] (-) TimerEvent: {}
+[2.353765] (-) TimerEvent: {}
+[2.454745] (-) TimerEvent: {}
+[2.555517] (-) TimerEvent: {}
+[2.656310] (-) TimerEvent: {}
+[2.757390] (-) TimerEvent: {}
+[2.858227] (-) TimerEvent: {}
+[2.958974] (-) TimerEvent: {}
+[3.059620] (-) TimerEvent: {}
+[3.160777] (-) TimerEvent: {}
+[3.217709] (drone_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.238822] (drone_navigation) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/workspaces/Autonomous-Drone-Assistance/ros2_ws/build/drone_navigation/build', '--no-deps', 'symlink_data'], 'cwd': '/workspaces/Autonomous-Drone-Assistance/ros2_ws/build/drone_navigation', 'env': {'HOSTNAME': 'docker-desktop', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/workspaces/Autonomous-Drone-Assistance', 'TERM_PROGRAM_VERSION': '1.106.0', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-9b04492d-f669-4e38-b704-a9ff5236a6b3.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'WAYLAND_DISPLAY': 'vscode-wayland-9b9f972b-a6a3-43d4-bbf0-4c51d718038d.sock', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-f0c86765-0358-445e-bba2-19d651a00432.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/vscode/vscode-server/bin/linux-x64/ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/user/0', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/.X11-unix/X0","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/user/0/vscode-git-04ae24e2e4.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X0', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/workspaces/Autonomous-Drone-Assistance/ros2_ws/build/drone_navigation', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspaces/Autonomous-Drone-Assistance/ros2_ws/build/drone_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/Autonomous-Drone-Assistance/ros2_ws/install/drone_navigation/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[3.271102] (-) TimerEvent: {}
+[3.283164] (drone_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.285992] (drone_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.288261] (drone_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.371274] (-) TimerEvent: {}
+[3.466664] (drone_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.471375] (-) TimerEvent: {}
+[3.572038] (-) TimerEvent: {}
+[3.673137] (-) TimerEvent: {}
+[3.779124] (-) TimerEvent: {}
+[3.884036] (-) TimerEvent: {}
+[3.985697] (-) TimerEvent: {}
+[4.097061] (-) TimerEvent: {}
+[4.199465] (-) TimerEvent: {}
+[4.300459] (-) TimerEvent: {}
+[4.401137] (-) TimerEvent: {}
+[4.501910] (-) TimerEvent: {}
+[4.602412] (-) TimerEvent: {}
+[4.703024] (-) TimerEvent: {}
+[4.803740] (-) TimerEvent: {}
+[4.904697] (-) TimerEvent: {}
+[4.967583] (drone_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.004859] (-) TimerEvent: {}
+[5.029501] (drone_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.034646] (drone_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.036495] (drone_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.105013] (-) TimerEvent: {}
+[5.176753] (drone_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[5.205149] (-) TimerEvent: {}
+[5.305796] (-) TimerEvent: {}
+[5.327085] (drone_navigation) StdoutLine: {'line': b'running develop\n'}
+[5.405952] (-) TimerEvent: {}
+[5.422992] (drone_control) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[5.506216] (-) TimerEvent: {}
+[5.607172] (-) TimerEvent: {}
+[5.706584] (drone_control) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[5.708211] (-) TimerEvent: {}
+[5.808888] (-) TimerEvent: {}
+[5.822108] (drone_navigation) StdoutLine: {'line': b'running egg_info\n'}
+[5.824503] (drone_navigation) StdoutLine: {'line': b'creating drone_navigation.egg-info\n'}
+[5.827221] (drone_navigation) StdoutLine: {'line': b'writing drone_navigation.egg-info/PKG-INFO\n'}
+[5.869128] (drone_navigation) StdoutLine: {'line': b'writing dependency_links to drone_navigation.egg-info/dependency_links.txt\n'}
+[5.881548] (drone_navigation) StdoutLine: {'line': b'writing entry points to drone_navigation.egg-info/entry_points.txt\n'}
+[5.890439] (drone_navigation) StdoutLine: {'line': b'writing requirements to drone_navigation.egg-info/requires.txt\n'}
+[5.903919] (drone_navigation) StdoutLine: {'line': b'writing top-level names to drone_navigation.egg-info/top_level.txt\n'}
+[5.916292] (-) TimerEvent: {}
+[5.931149] (drone_navigation) StdoutLine: {'line': b"writing manifest file 'drone_navigation.egg-info/SOURCES.txt'\n"}
+[6.016529] (-) TimerEvent: {}
+[6.084329] (drone_navigation) StdoutLine: {'line': b"reading manifest file 'drone_navigation.egg-info/SOURCES.txt'\n"}
+[6.116619] (-) TimerEvent: {}
+[6.161402] (drone_control) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[6.216886] (-) TimerEvent: {}
+[6.224558] (drone_navigation) StdoutLine: {'line': b"writing manifest file 'drone_navigation.egg-info/SOURCES.txt'\n"}
+[6.280715] (drone_navigation) StdoutLine: {'line': b'running build_ext\n'}
+[6.282452] (drone_navigation) StdoutLine: {'line': b'Creating /workspaces/Autonomous-Drone-Assistance/ros2_ws/install/drone_navigation/lib/python3.10/site-packages/drone-navigation.egg-link (link to .)\n'}
+[6.315128] (drone_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.317299] (-) TimerEvent: {}
+[6.332224] (drone_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.359540] (drone_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.371335] (drone_navigation) StdoutLine: {'line': b'\n'}
+[6.374037] (drone_navigation) StdoutLine: {'line': b'Installed /workspaces/Autonomous-Drone-Assistance/ros2_ws/build/drone_navigation\n'}
+[6.383900] (drone_navigation) StdoutLine: {'line': b'running symlink_data\n'}
+[6.408574] (drone_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.410697] (drone_navigation) StdoutLine: {'line': b'creating /workspaces/Autonomous-Drone-Assistance/ros2_ws/install/drone_navigation/share/ament_index\n'}
+[6.417530] (-) TimerEvent: {}
+[6.419765] (drone_navigation) StdoutLine: {'line': b'creating /workspaces/Autonomous-Drone-Assistance/ros2_ws/install/drone_navigation/share/ament_index/resource_index\n'}
+[6.433553] (drone_navigation) StdoutLine: {'line': b'creating /workspaces/Autonomous-Drone-Assistance/ros2_ws/install/drone_navigation/share/ament_index/resource_index/packages\n'}
+[6.460116] (drone_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.517749] (-) TimerEvent: {}
+[6.520291] (drone_navigation) StdoutLine: {'line': b'symbolically linking /workspaces/Autonomous-Drone-Assistance/ros2_ws/build/drone_navigation/resource/drone_navigation -> /workspaces/Autonomous-Drone-Assistance/ros2_ws/install/drone_navigation/share/ament_index/resource_index/packages\n'}
+[6.586544] (drone_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[6.595925] (drone_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.603850] (drone_navigation) StdoutLine: {'line': b'symbolically linking /workspaces/Autonomous-Drone-Assistance/ros2_ws/build/drone_navigation/package.xml -> /workspaces/Autonomous-Drone-Assistance/ros2_ws/install/drone_navigation/share/drone_navigation\n'}
+[6.617872] (-) TimerEvent: {}
+[6.633810] (drone_navigation) CommandEnded: {'returncode': 0}
+[6.718004] (-) TimerEvent: {}
+[6.752725] (drone_control) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.795941] (drone_control) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.818142] (-) TimerEvent: {}
+[6.847151] (drone_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.921648] (-) TimerEvent: {}
+[6.944837] (drone_control) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[7.021789] (-) TimerEvent: {}
+[7.125436] (-) TimerEvent: {}
+[7.228129] (-) TimerEvent: {}
+[7.338161] (-) TimerEvent: {}
+[7.339435] (drone_navigation) JobEnded: {'identifier': 'drone_navigation', 'rc': 0}
+[7.438326] (-) TimerEvent: {}
+[7.539125] (-) TimerEvent: {}
+[7.640089] (-) TimerEvent: {}
+[7.741072] (-) TimerEvent: {}
+[7.842246] (-) TimerEvent: {}
+[7.943529] (-) TimerEvent: {}
+[8.045021] (-) TimerEvent: {}
+[8.146486] (-) TimerEvent: {}
+[8.248905] (-) TimerEvent: {}
+[8.350196] (-) TimerEvent: {}
+[8.451524] (-) TimerEvent: {}
+[8.543354] (drone_control) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.551776] (-) TimerEvent: {}
+[8.623667] (drone_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.667045] (-) TimerEvent: {}
+[8.772751] (-) TimerEvent: {}
+[8.875211] (-) TimerEvent: {}
+[8.978530] (-) TimerEvent: {}
+[9.079699] (-) TimerEvent: {}
+[9.181228] (-) TimerEvent: {}
+[9.282445] (-) TimerEvent: {}
+[9.385162] (-) TimerEvent: {}
+[9.486335] (-) TimerEvent: {}
+[9.587661] (-) TimerEvent: {}
+[9.689178] (-) TimerEvent: {}
+[9.790694] (-) TimerEvent: {}
+[9.892101] (-) TimerEvent: {}
+[9.993693] (-) TimerEvent: {}
+[10.094702] (-) TimerEvent: {}
+[10.195908] (-) TimerEvent: {}
+[10.297273] (-) TimerEvent: {}
+[10.398188] (-) TimerEvent: {}
+[10.499855] (-) TimerEvent: {}
+[10.525821] (drone_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[10.544684] (drone_control) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[10.600309] (-) TimerEvent: {}
+[10.702042] (-) TimerEvent: {}
+[10.805265] (-) TimerEvent: {}
+[10.906454] (-) TimerEvent: {}
+[10.919650] (drone_control) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[11.006634] (-) TimerEvent: {}
+[11.107749] (-) TimerEvent: {}
+[11.208502] (-) TimerEvent: {}
+[11.309707] (-) TimerEvent: {}
+[11.411720] (-) TimerEvent: {}
+[11.513700] (-) TimerEvent: {}
+[11.614573] (-) TimerEvent: {}
+[11.719227] (-) TimerEvent: {}
+[11.821456] (-) TimerEvent: {}
+[11.922212] (-) TimerEvent: {}
+[12.022789] (-) TimerEvent: {}
+[12.124350] (-) TimerEvent: {}
+[12.225111] (-) TimerEvent: {}
+[12.325767] (-) TimerEvent: {}
+[12.427320] (-) TimerEvent: {}
+[12.528736] (-) TimerEvent: {}
+[12.629553] (-) TimerEvent: {}
+[12.720504] (drone_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.729744] (-) TimerEvent: {}
+[12.831359] (-) TimerEvent: {}
+[12.932204] (-) TimerEvent: {}
+[13.034590] (-) TimerEvent: {}
+[13.140374] (-) TimerEvent: {}
+[13.241712] (-) TimerEvent: {}
+[13.342585] (-) TimerEvent: {}
+[13.443947] (-) TimerEvent: {}
+[13.546261] (-) TimerEvent: {}
+[13.647436] (-) TimerEvent: {}
+[13.748132] (-) TimerEvent: {}
+[13.849395] (-) TimerEvent: {}
+[13.952017] (-) TimerEvent: {}
+[14.054552] (-) TimerEvent: {}
+[14.157049] (-) TimerEvent: {}
+[14.258054] (-) TimerEvent: {}
+[14.354680] (drone_control) StdoutLine: {'line': b'-- Generating done\n'}
+[14.358172] (-) TimerEvent: {}
+[14.458693] (-) TimerEvent: {}
+[14.559387] (-) TimerEvent: {}
+[14.660667] (-) TimerEvent: {}
+[14.761806] (-) TimerEvent: {}
+[14.862686] (-) TimerEvent: {}
+[14.964256] (-) TimerEvent: {}
+[14.973481] (drone_control) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/Autonomous-Drone-Assistance/ros2_ws/build/drone_control\n'}
+[14.992853] (drone_control) CommandEnded: {'returncode': 0}
+[15.023189] (drone_control) JobProgress: {'identifier': 'drone_control', 'progress': 'build'}
+[15.050110] (drone_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/Autonomous-Drone-Assistance/ros2_ws/build/drone_control', '--', '-j8', '-l8'], 'cwd': '/workspaces/Autonomous-Drone-Assistance/ros2_ws/build/drone_control', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/workspaces/Autonomous-Drone-Assistance'), ('TERM_PROGRAM_VERSION', '1.106.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-9b04492d-f669-4e38-b704-a9ff5236a6b3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-9b9f972b-a6a3-43d4-bbf0-4c51d718038d.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-f0c86765-0358-445e-bba2-19d651a00432.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/vscode/vscode-server/bin/linux-x64/ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/0'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X0","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/0/vscode-git-04ae24e2e4.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/Autonomous-Drone-Assistance/ros2_ws/build/drone_control'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[15.064449] (-) TimerEvent: {}
+[15.165776] (-) TimerEvent: {}
+[15.267120] (-) TimerEvent: {}
+[15.369391] (-) TimerEvent: {}
+[15.470875] (-) TimerEvent: {}
+[15.571391] (-) TimerEvent: {}
+[15.672451] (-) TimerEvent: {}
+[15.773802] (-) TimerEvent: {}
+[15.836680] (drone_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/drone_mover.dir/src/drone_mover.cpp.o\x1b[0m\n'}
+[15.874013] (-) TimerEvent: {}
+[15.975174] (-) TimerEvent: {}
+[16.076372] (-) TimerEvent: {}
+[16.177561] (-) TimerEvent: {}
+[16.278711] (-) TimerEvent: {}
+[16.382326] (-) TimerEvent: {}
+[16.483574] (-) TimerEvent: {}
+[16.585097] (-) TimerEvent: {}
+[16.686383] (-) TimerEvent: {}
+[16.787661] (-) TimerEvent: {}
+[16.891805] (-) TimerEvent: {}
+[16.993160] (-) TimerEvent: {}
+[17.094581] (-) TimerEvent: {}
+[17.195964] (-) TimerEvent: {}
+[17.297392] (-) TimerEvent: {}
+[17.398848] (-) TimerEvent: {}
+[17.500073] (-) TimerEvent: {}
+[17.603352] (-) TimerEvent: {}
+[17.704314] (-) TimerEvent: {}
+[17.805811] (-) TimerEvent: {}
+[17.907266] (-) TimerEvent: {}
+[18.008831] (-) TimerEvent: {}
+[18.112211] (-) TimerEvent: {}
+[18.213592] (-) TimerEvent: {}
+[18.315019] (-) TimerEvent: {}
+[18.416565] (-) TimerEvent: {}
+[18.537005] (-) TimerEvent: {}
+[18.640636] (-) TimerEvent: {}
+[18.742272] (-) TimerEvent: {}
+[18.843661] (-) TimerEvent: {}
+[18.944474] (-) TimerEvent: {}
+[19.045470] (-) TimerEvent: {}
+[19.146134] (-) TimerEvent: {}
+[19.246923] (-) TimerEvent: {}
+[19.348002] (-) TimerEvent: {}
+[19.448795] (-) TimerEvent: {}
+[19.549947] (-) TimerEvent: {}
+[19.650549] (-) TimerEvent: {}
+[19.751462] (-) TimerEvent: {}
+[19.852973] (-) TimerEvent: {}
+[19.953946] (-) TimerEvent: {}
+[20.055059] (-) TimerEvent: {}
+[20.156487] (-) TimerEvent: {}
+[20.257697] (-) TimerEvent: {}
+[20.358947] (-) TimerEvent: {}
+[20.460368] (-) TimerEvent: {}
+[20.519310] (drone_control) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/Autonomous-Drone-Assistance/ros2_ws/drone_control/src/drone_mover.cpp:4:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id at end of input\n'}
+[20.520696] (drone_control) StderrLine: {'line': b'    4 | class DroneMover\n'}
+[20.522561] (drone_control) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[20.560744] (-) TimerEvent: {}
+[20.661513] (-) TimerEvent: {}
+[20.762233] (-) TimerEvent: {}
+[20.863182] (-) TimerEvent: {}
+[20.935174] (drone_control) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/drone_mover.dir/build.make:76: CMakeFiles/drone_mover.dir/src/drone_mover.cpp.o] Error 1\n'}
+[20.937367] (drone_control) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/drone_mover.dir/all] Error 2\n'}
+[20.939042] (drone_control) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[20.941885] (drone_control) CommandEnded: {'returncode': 2}
+[20.963307] (-) TimerEvent: {}
+[21.063910] (-) TimerEvent: {}
+[21.166359] (-) TimerEvent: {}
+[21.259147] (drone_control) JobEnded: {'identifier': 'drone_control', 'rc': 2}
+[21.331592] (-) TimerEvent: {}
+[21.332480] (-) EventReactorShutdown: {}

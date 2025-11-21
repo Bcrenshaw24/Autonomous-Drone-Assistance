@@ -1,0 +1,18 @@
+[1.162s] Invoking command in '/workspaces/Autonomous-Drone-Assistance/ros2_ws/build/drone_control': CMAKE_PREFIX_PATH=/workspaces/Autonomous-Drone-Assistance/ros2_ws/install/drone_navigation:/opt/ros/humble /usr/bin/cmake --build /workspaces/Autonomous-Drone-Assistance/ros2_ws/build/drone_control -- -j8 -l8
+[1.607s] [35m[1mConsolidate compiler generated dependencies of target drone_mover[0m
+[3.469s] [ 50%] [32mBuilding CXX object CMakeFiles/drone_mover.dir/src/drone_mover.cpp.o[0m
+[5.991s] [01m[K/workspaces/Autonomous-Drone-Assistance/ros2_ws/drone_control/src/drone_mover.cpp:28:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[5.995s]    28 | }
+[5.999s]       |  [01;31m[K^[m[K
+[6.003s]       |  [32m[K;[m[K
+[6.012s] [01m[K/workspaces/Autonomous-Drone-Assistance/ros2_ws/drone_control/src/drone_mover.cpp:[m[K In constructor ‘[01m[KDroneMover::DroneMover()[m[K’:
+[6.015s] [01m[K/workspaces/Autonomous-Drone-Assistance/ros2_ws/drone_control/src/drone_mover.cpp:12:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kl[m[K’
+[6.019s]    12 |                 std::bind(&DroneMover::move_drone, this)[01;31m[Kl[m[K
+[6.024s]       |                                                         [01;31m[K^[m[K
+[6.029s] [01m[K/workspaces/Autonomous-Drone-Assistance/ros2_ws/drone_control/src/drone_mover.cpp:10:45:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[6.033s]    10 |             timer_ = this->create_wall_timer[01;36m[K([m[K
+[6.036s]       |                                             [01;36m[K^[m[K
+[6.967s] gmake[2]: *** [CMakeFiles/drone_mover.dir/build.make:76: CMakeFiles/drone_mover.dir/src/drone_mover.cpp.o] Error 1
+[6.973s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/drone_mover.dir/all] Error 2
+[6.977s] gmake: *** [Makefile:146: all] Error 2
+[6.979s] Invoked command in '/workspaces/Autonomous-Drone-Assistance/ros2_ws/build/drone_control' returned '2': CMAKE_PREFIX_PATH=/workspaces/Autonomous-Drone-Assistance/ros2_ws/install/drone_navigation:/opt/ros/humble /usr/bin/cmake --build /workspaces/Autonomous-Drone-Assistance/ros2_ws/build/drone_control -- -j8 -l8

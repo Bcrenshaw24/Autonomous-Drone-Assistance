@@ -1,0 +1,16 @@
+[35m[1mConsolidate compiler generated dependencies of target drone_mover[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/drone_mover.dir/src/drone_mover.cpp.o[0m
+[01m[K/workspaces/Autonomous-Drone-Assistance/ros2_ws/drone_control/src/drone_mover.cpp:28:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   28 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/workspaces/Autonomous-Drone-Assistance/ros2_ws/drone_control/src/drone_mover.cpp:[m[K In constructor ‘[01m[KDroneMover::DroneMover()[m[K’:
+[01m[K/workspaces/Autonomous-Drone-Assistance/ros2_ws/drone_control/src/drone_mover.cpp:12:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kl[m[K’
+   12 |                 std::bind(&DroneMover::move_drone, this)[01;31m[Kl[m[K
+      |                                                         [01;31m[K^[m[K
+[01m[K/workspaces/Autonomous-Drone-Assistance/ros2_ws/drone_control/src/drone_mover.cpp:10:45:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   10 |             timer_ = this->create_wall_timer[01;36m[K([m[K
+      |                                             [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/drone_mover.dir/build.make:76: CMakeFiles/drone_mover.dir/src/drone_mover.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/drone_mover.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

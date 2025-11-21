@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating drone_navigation.egg-info
+writing drone_navigation.egg-info/PKG-INFO
+writing dependency_links to drone_navigation.egg-info/dependency_links.txt
+writing entry points to drone_navigation.egg-info/entry_points.txt
+writing requirements to drone_navigation.egg-info/requires.txt
+writing top-level names to drone_navigation.egg-info/top_level.txt
+writing manifest file 'drone_navigation.egg-info/SOURCES.txt'
+reading manifest file 'drone_navigation.egg-info/SOURCES.txt'
+writing manifest file 'drone_navigation.egg-info/SOURCES.txt'
+running build_ext
+Creating /workspaces/Autonomous-Drone-Assistance/ros2_ws/install/drone_navigation/lib/python3.10/site-packages/drone-navigation.egg-link (link to .)
+
+Installed /workspaces/Autonomous-Drone-Assistance/ros2_ws/build/drone_navigation
+running symlink_data
+creating /workspaces/Autonomous-Drone-Assistance/ros2_ws/install/drone_navigation/share/ament_index
+creating /workspaces/Autonomous-Drone-Assistance/ros2_ws/install/drone_navigation/share/ament_index/resource_index
+creating /workspaces/Autonomous-Drone-Assistance/ros2_ws/install/drone_navigation/share/ament_index/resource_index/packages
+symbolically linking /workspaces/Autonomous-Drone-Assistance/ros2_ws/build/drone_navigation/resource/drone_navigation -> /workspaces/Autonomous-Drone-Assistance/ros2_ws/install/drone_navigation/share/ament_index/resource_index/packages
+symbolically linking /workspaces/Autonomous-Drone-Assistance/ros2_ws/build/drone_navigation/package.xml -> /workspaces/Autonomous-Drone-Assistance/ros2_ws/install/drone_navigation/share/drone_navigation

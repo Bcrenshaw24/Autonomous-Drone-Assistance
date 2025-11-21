@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+drone_navigation/__init__.py
+drone_navigation.egg-info/PKG-INFO
+drone_navigation.egg-info/SOURCES.txt
+drone_navigation.egg-info/dependency_links.txt
+drone_navigation.egg-info/entry_points.txt
+drone_navigation.egg-info/requires.txt
+drone_navigation.egg-info/top_level.txt
+drone_navigation.egg-info/zip-safe
+resource/drone_navigation

@@ -1,0 +1,23 @@
+[3.188s] Invoking command in '/workspaces/Autonomous-Drone-Assistance/ros2_ws/build/drone_navigation': PYTHONPATH=/workspaces/Autonomous-Drone-Assistance/ros2_ws/build/drone_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/Autonomous-Drone-Assistance/ros2_ws/install/drone_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/Autonomous-Drone-Assistance/ros2_ws/build/drone_navigation/build --no-deps symlink_data
+[5.252s] running develop
+[5.744s] running egg_info
+[5.747s] creating drone_navigation.egg-info
+[5.752s] writing drone_navigation.egg-info/PKG-INFO
+[5.791s] writing dependency_links to drone_navigation.egg-info/dependency_links.txt
+[5.803s] writing entry points to drone_navigation.egg-info/entry_points.txt
+[5.814s] writing requirements to drone_navigation.egg-info/requires.txt
+[5.834s] writing top-level names to drone_navigation.egg-info/top_level.txt
+[5.856s] writing manifest file 'drone_navigation.egg-info/SOURCES.txt'
+[6.012s] reading manifest file 'drone_navigation.egg-info/SOURCES.txt'
+[6.146s] writing manifest file 'drone_navigation.egg-info/SOURCES.txt'
+[6.203s] running build_ext
+[6.204s] Creating /workspaces/Autonomous-Drone-Assistance/ros2_ws/install/drone_navigation/lib/python3.10/site-packages/drone-navigation.egg-link (link to .)
+[6.294s] 
+[6.296s] Installed /workspaces/Autonomous-Drone-Assistance/ros2_ws/build/drone_navigation
+[6.307s] running symlink_data
+[6.334s] creating /workspaces/Autonomous-Drone-Assistance/ros2_ws/install/drone_navigation/share/ament_index
+[6.341s] creating /workspaces/Autonomous-Drone-Assistance/ros2_ws/install/drone_navigation/share/ament_index/resource_index
+[6.357s] creating /workspaces/Autonomous-Drone-Assistance/ros2_ws/install/drone_navigation/share/ament_index/resource_index/packages
+[6.446s] symbolically linking /workspaces/Autonomous-Drone-Assistance/ros2_ws/build/drone_navigation/resource/drone_navigation -> /workspaces/Autonomous-Drone-Assistance/ros2_ws/install/drone_navigation/share/ament_index/resource_index/packages
+[6.526s] symbolically linking /workspaces/Autonomous-Drone-Assistance/ros2_ws/build/drone_navigation/package.xml -> /workspaces/Autonomous-Drone-Assistance/ros2_ws/install/drone_navigation/share/drone_navigation
+[6.555s] Invoked command in '/workspaces/Autonomous-Drone-Assistance/ros2_ws/build/drone_navigation' returned '0': PYTHONPATH=/workspaces/Autonomous-Drone-Assistance/ros2_ws/build/drone_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/Autonomous-Drone-Assistance/ros2_ws/install/drone_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/Autonomous-Drone-Assistance/ros2_ws/build/drone_navigation/build --no-deps symlink_data

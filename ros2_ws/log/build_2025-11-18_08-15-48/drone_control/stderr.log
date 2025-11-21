@@ -1,0 +1,6 @@
+[01m[K/workspaces/Autonomous-Drone-Assistance/ros2_ws/drone_control/src/drone_mover.cpp:4:17:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+    4 | class DroneMover
+      |                 [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/drone_mover.dir/build.make:76: CMakeFiles/drone_mover.dir/src/drone_mover.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/drone_mover.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
